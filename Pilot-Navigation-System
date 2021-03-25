@@ -6,7 +6,7 @@
 
 print("Pilot Shiv is flying his plane")
 
-height=int(input('Enter the altitude at which his plane is flying :'))
+height=int(input('Enter the altitude at which his plane is flying(in ft) :'))
 
 if height <=3000:
   print('its safe for u for landing')
