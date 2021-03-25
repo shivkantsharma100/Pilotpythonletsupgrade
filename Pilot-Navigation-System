@@ -1,11 +1,16 @@
 
+#Pilot-Navigation-System
+
+#Allow safer landing only if altitude is at 3000ft 
+#For altitude in 3000ft to 6000ft let the pilot to atleast try to get to 3000ft and then go for safe landing
+
 height=int(input('Enter the altitude at which plane is flying :'))
 
 if height <=3000:
   print('its safe u for landing')
 
 elif height>3000 and height<6000:
-  print('First u should try to come to height 3000 km then go for safe landing')
+  print('First u should try to come to height 3000 ft then go for safe landing')
 
 else:
   print('GO Around')
