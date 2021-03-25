@@ -9,10 +9,10 @@ print("Pilot Shiv is flying his plane")
 height=int(input('Enter the altitude at which his plane is flying(in ft) :'))
 
 if height <=3000:
-  print('its safe for u for landing')
+  print('its safe for u for landing ,you can open ur landing gears ')
 
 elif height>3000 and height<6000:
-  print('First u should try to come to height 3000 ft then go for safe landing')
+  print('First u should try to come to height 3000 ft then go for safe landing by opening ur landing gears')
 
 else:
   print('GO Around')
